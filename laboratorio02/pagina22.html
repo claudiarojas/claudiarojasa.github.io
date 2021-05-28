@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabajando con Formularios</title>
+</head>
+<body>
+    <h1>Formulario de Registro de Alumnos</h1>
+    <fore action<"">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label fore="txtDni" >Número de Documento</label> <input type="text" name="txtDni" id="txtDni" placeholder="Ingresé su DNI"><br>
+            <label fore= "txtNom">Nombres</label> <input type="text" name="txtNom" id="txtNom" placeholder="Ingrece sus Nombres"><br>
+            <label fore="txtape"> Apellidos</label> <input type="text" name="txtApe" id="txtApe" placeholder="Ingrece sus apellidos"><br>
+            <label fore="txtfec">Fecha de Nacimiento</label> <input type="date" name="txtfec" id="txtfec" placeholder="Ingrese su fecha de Nacimiento "><br>
+            <label fore="txtDir">Dirección</label> <input type="text" name="txtdir" id="txtDir" placeholder="Ingrese dirección"><br>
+            <select name="cboDistrito" id="cboDistrito">
+                <option value="0">Seleccione un distrito</option>
+                <option value="1">Cercado de Lima</option>
+                <option value="2">Breña</option>
+                <option value="3">Jesus Maria</option>
+                <option value="4">San Juan de Lurigancho</option>
+                <option value="5">la Molina</option><br>
+            
+            </select><br>
+            <label>Sexo</label><input type="Radio" name="Sexo" id="rbm" ><label  for="rbm">Masculino</label> <input type="radio" name="Sexo" id="rbf"><label for="rbf">Femenino</label><br>
+            <label>Estado</label> <input type="checkbox" name="chkx" id="chkx" ><label>Habilitado</label>
+        </fieldset>
+        <fieldset>
+            <legend>Datos del curso</legend>
+            <label for="cboCiclo"></label>
+            <select name="cboCiclo" id="cboCiclo">
+                <option value="0">Seleccione un ciclo</option>
+                <option value="1">1er ciclo</option>
+                <option value="2">2do ciclo</option>
+                <option value="3">3er ciclo</option>
+                <option value="4">4to ciclo</option>
+                <option value="5">5to ciclo</option>
+                <option value="6">6to ciclo</option><br>
+            </select><br>
+
+        </fieldset>
+    </fore>
+</body>
+</html>
